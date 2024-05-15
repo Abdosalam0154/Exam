@@ -1,0 +1,54 @@
+
+@media (max-width:992px){
+    header .caption span{
+        font-size: 45px;
+    }
+    header .navbar-collapse{
+        background-color: #fff;
+        --bs-navbar-active-color: #000;
+    }
+    #about .right{
+        width: 100%;
+        margin-bottom: 80px;
+    }
+    #about .left {
+        width: 100%;
+    }
+    .col-sm-12 {
+        display: flex;
+        justify-content: center;
+    }
+    nav li .active::before {
+        width: 10%;
+        left: 45%;
+    }
+}
+@media (max-width:768px){
+    header .caption span{
+        font-size: 30px;
+    }
+    #team .row {
+        width: 100%;
+    }
+
+}
+
+
+
+
+
+header nav {
+    /* --bs-tertiary-bg-rgb: transparent; */
+}
+header .navbar {
+    /* color: #fff; */
+    /* --bs-navbar-active-color: #fff; */
+    /* --bs-navbar-brand-color:#fff;     */
+    /* --bs-navbar-brand-hover-color:#fff; */
+}
+
+
+t{
+    font-family: "Montserrat", sans-serif;
+    font-family: "Poppins", sans-serif;
+}
